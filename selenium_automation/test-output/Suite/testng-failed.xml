@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="Chrome1"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="selenium.automation.expedia.pages.HomePage">
+        <methods>
+          <include name="searchFlight"/>
+        </methods>
+      </class> <!-- selenium.automation.expedia.pages.HomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
